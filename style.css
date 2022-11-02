@@ -1,0 +1,124 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(#64e6ca, #91b7e5);
+}
+
+#app1{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+#app{
+    height: 70%;
+    background: white;
+}
+#three{
+    background: white;
+    height: 14%;
+    padding-top: 2em;
+    margin-bottom: 2em;
+}
+#todo{
+    font-weight: bold;
+}
+#four{
+    display: flex;
+    justify-content: left;
+    
+    margin-bottom: 1em;
+}
+#two{
+    display: flex;
+    justify-content: space-between;
+    height: 2em;
+}
+.first{
+    width: 89%;
+    border: 1.4px solid rgb(157, 154, 154);
+}
+.second{
+    background: rebeccapurple;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+input{
+    border: none;
+    padding-left: .5em;
+}
+button{
+    border: none;
+    background: none;
+}
+#old{
+    display: flex;
+    justify-content: center;
+}
+.new{
+    background: rgb(224, 224, 225);
+    height: 2em;
+    width: 100%;
+    border-radius: 2%;
+    padding-left: 3%;
+}
+.new1{
+    background: rgb(37, 37, 75);
+    height: 2em;
+    width: 100%;
+}
+#del{
+    display: flex;
+    justify-content: center;
+}
+#del1{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.fifth{
+    background: rgb(224, 224, 225);
+    width: 92%;
+    height: 2em;
+    padding-left: 3%;
+}
+.sixth{
+    background: rgba(218, 34, 10, 0.836);
+    height: 2em;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+#colo{
+    height: 2em;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6%;
+}
+.but{
+    background: rgb(77, 9, 122);
+    border-radius: 5%;
+    width:5em;
+    display: flex;
+    justify-content: center;
+}
+.butt{
+    color: white;
+}
+.fa-trash{
+    color: whitesmoke;
+}
+.fa-plus{
+    color: whitesmoke;
+}
+p{
+    font-weight: 500;
+}
+::placeholder{
+    font-weight: 500;
+}
